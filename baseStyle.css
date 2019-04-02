@@ -10,12 +10,29 @@ body{
 }
 
 .header {
+    margin-top: 2em;
+
+
     width: 100%;
     height: 3em;
-    background-color: #be811e;
+    background-color: #E6D347;
+
+    -ms-transform: rotate(2deg); /* IE 9 */
+    -webkit-transform: rotate(2deg); /* Safari */
+    transform: rotate(2deg);
+
+    -webkit-box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 29px 0px rgba(0,0,0,0.75);
+}
+.iconeBase {
+  display: block;
+  padding-top: 15vh;
+  margin: auto;
+  opacity: 0.9;
 }
 .rustyTop{
-  background-color: white;
+  /* background-color: white; */
   color: #2A2925;
   float: left;
   height: 100%;
@@ -25,8 +42,8 @@ body{
   -webkit-transition: .4s;
   transition: .8s;
   line-height: 2.7em;
-  border-right: solid;
-  border-width: 1em;
+  /* border-right: solid; */
+  /* border-width: 1em; */
 }
 .rustyTop:hover{
   border-width: 1.5em;
@@ -35,7 +52,7 @@ body{
 .languageBox{
     float: right;
     height: 2em;
-    padding: 0.5em 4em 0.5em 2em;
+    padding: 0.85em 4em 0.5em 2em;
     line-height: 1.3em;
 }
 
