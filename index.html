@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="baseStyle.css">
-    <title>The Rusty Crane Brothers</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="baseStyle.css">
+  <title>The Rusty Crane Brothers</title>
 </head>
 
 <body>
@@ -14,81 +14,61 @@
 
 
 
-    <div class="header">
+
+
+
+
+
+  <div class="hold">
+    <div id="element-1" class="element element-1">
+
+      <div class="header">
         <span class="rustyTop">
-            The Rusty Crane Brothers</span>
+          The Rusty Crane Brothers</span>
         <div class="languageBox">
-            <div class="languageBoxSwitch">
-                <img class="flags" src="icons/flag_ptbr.svg" alt="" srcset="" style="width: 24px;">
-
-
-                <label class="switch">
-                    <input type="checkbox" checked>
-                    <span class="slider round"></span>
-                </label>
-                <img class="flags"  src="icons/flag_eng.svg" alt="" srcset="" style="width: 24px;">
-            </div>
+          <div class="languageBoxSwitch">
+            <img class="flags" src="icons/flag_ptbr.svg" alt="" srcset="" style="width: 24px;">
+            <label class="switch">
+              <input type="checkbox" checked>
+              <span class="slider round"></span>
+            </label>
+            <img class="flags" src="icons/flag_eng.svg" alt="" srcset="" style="width: 24px;">
+          </div>
         </div>
-    </div>
-    <div class="header2"></div>
+      </div>
+      <img class="iconeBase" src="icons/base_logo_big.png" alt="" style="text-align: center">
 
-    <img class="iconeBase" src="icons/base_logo_big.png" alt="" style="text-align: center">
-
-
-    
-
-    <div class="video-background">
+      <div class="video-background">
         <div class="video-foreground">
-            <iframe src="https://www.youtube.com/embed/LyL50CNxN58?autoplay=1&mute=1&enablejsapi=1" frameborder="0" allow="autoplay;" allowfullscreen></iframe>
+          <iframe src="https://www.youtube.com/embed/LyL50CNxN58?autoplay=1&mute=1&loop=1&enablejsapi=1" frameborder="0"
+            allow="autoplay;" allowfullscreen></iframe>
         </div>
-
-
-        <script>
-            // 2. This code loads the IFrame Player API code asynchronously.
-            var tag = document.createElement('script');
-      
-            tag.src = "https://www.youtube.com/iframe_api";
-            var firstScriptTag = document.getElementsByTagName('script')[0];
-            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-      
-            // 3. This function creates an <iframe> (and YouTube player)
-            //    after the API code downloads.
-            var player;
-            function onYouTubeIframeAPIReady() {
-              player = new YT.Player('player', {
-                height: '360',
-                width: '640',
-                videoId: 'M7lc1UVf-VE',
-                events: {
-                  'onReady': onPlayerReady,
-                  'onStateChange': onPlayerStateChange
-                }
-              });
-            }
-      
-            // 4. The API will call this function when the video player is ready.
-            function onPlayerReady(event) {
-              event.target.playVideo();
-            }
-      
-            // 5. The API calls this function when the player's state changes.
-            //    The function indicates that when playing a video (state=1),
-            //    the player should play for six seconds and then stop.
-            var done = false;
-            function onPlayerStateChange(event) {
-              if (event.data == YT.PlayerState.PLAYING && !done) {
-                setTimeout(stopVideo, 6000);
-                done = true;
-              }
-            }
-            function stopVideo() {
-              player.stopVideo();
-            }
-          </script>
-      
-
+      </div>
 
     </div>
+    <div id="element-2" class="element element-2">
+Site em construção<br>
+Under Construction
+
+    </div>
+    <div id="element-3" class="element element-3">
+      Site em construção<br>
+      Under Construction
+
+    </div>
+    <div id="element-4" class="element element-4">
+      Site em construção<br>
+      Under Construction
+
+    </div>
+    <div id="element-5" class="element element-5">
+      Site em construção<br>
+      Under Construction
+
+    </div>
+  </div>
+
 </body>
+
 
 </html>
