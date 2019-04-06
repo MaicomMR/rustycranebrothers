@@ -7,6 +7,7 @@ body{
     margin : 0;
     font-family: 'Buran';
     font-size: 1.2em;
+    background-color: rgb(223, 215, 158);
 }
 
 .header {
@@ -100,14 +101,15 @@ float: left;
 .pag2_aba:hover{
   background-color: rgb(10, 10, 10);
   transition: 1.2s;
-  border-bottom: 10vw solid rgb(0, 0, 14);
+  border-bottom: 0.5vw solid rgb(90, 90, 90);
 }
 
 
 .caixaQuemSomos {
-  width: 100%;
+  width: 110%;
   float: left;
-  margin-left: -2vw;  
+  margin-left: -2vw; 
+
 
 
 }
@@ -147,4 +149,43 @@ float: left;
   margin-left: -0.9vw;
   margin-top: 3vw;
 
+}
+
+.mouseDownAnim {
+  margin: auto;
+
+  left: 46vw;
+
+  width: 7vw;
+  height: 2vw;
+ 
+  position: absolute;
+  bottom: 0;
+
+  border-radius: 1vw 1vw 0 0; 
+
+  animation-name: example;
+  animation-duration: 1.5s;
+  animation-iteration-count: 999 ;
+}
+@keyframes example {
+  0% {height: 2.5vw; opacity: 0;}
+  50% {height: 2vw; opacity: 1;}
+  100% {height: 2.5vw; opacity: 0;}
+}
+.arrowDown{
+  float: left;
+  border: solid black;
+  border-width: 0 0.2vw 0.2vw 0;
+  display: inline-block;
+  padding: 0.5vw;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-left: 3.0vw;
+  margin-top: -0.5vw;
+}
+
+.mouseScroll{
+  margin-top: 0.5vw;
+  width: 4vw;
 }
