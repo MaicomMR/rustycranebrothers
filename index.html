@@ -25,7 +25,12 @@
 
 
 
-
+<div class="underConstruction" id="underConstruction" onclick="apagaAlerta()">
+  <span style="color: white; margin-top: -1vw; float: right; border-style: solid;"> &nbsp; x &nbsp; </span>
+  
+  <br>O SITE ENCONTRA-SE EM CONSTRUÇÃO, MUITAS FUNCIONALIDADES PODE ESTAR INCONSISTENTES 
+  <br>THE SITE IS UNDER CONSTRUCTION, MANY FUNCTIONALITIES CAN BE INCONSISTENT
+</div>
 
 
 
@@ -41,7 +46,7 @@
           <div class="languageBoxSwitch">
             <img class="flags" src="icons/flag_ptbr.svg" alt="" srcset="" style="width: 1.5vw;">
             <label class="switch">
-              <input type="checkbox" checked>
+              <input id="language" type="checkbox" onclick="calc();">
               <span class="slider round"></span>
             </label>
             <img class="flags" src="icons/flag_eng.svg" alt="" srcset="" style="width: 1.5vw;">
@@ -52,8 +57,9 @@
 
       <div class="video-background">
         <div class="video-foreground">
-          <iframe src="https://www.youtube.com/embed/LyL50CNxN58?autoplay=1&mute=1&loop=1&enablejsapi=1&playlist=LyL50CNxN58" frameborder="0"
-            allow="autoplay;" allowfullscreen></iframe>
+          <iframe
+            src="https://www.youtube.com/embed/LyL50CNxN58?autoplay=1&mute=1&loop=1&enablejsapi=1&playlist=LyL50CNxN58"
+            frameborder="0" allow="autoplay;" allowfullscreen></iframe>
         </div>
       </div>
 
@@ -62,7 +68,11 @@
         <div class="arrowDown"></div>
         <div class="arrowDown"></div>
       </div>
-
+      <div class="caixaVideo"><a href="https://www.youtube.com/watch?v=LyL50CNxN58" target="_blank"
+          rel="noopener noreferrer">
+          <div id="textoVideo">O vídeo do background pertence a "Palm'sTime" e pode ser acessado clicando aqui</div>
+        </a>
+      </div>
     </div>
     <div id="element-2" class="element element-2">
 
@@ -71,21 +81,21 @@
         <div class="menuPag2">
           <div class="botaoMenuP2">
             <div class="iconeMenuP2"><img src="icons/icone_aboutUs.svg" alt="" class="iconep2"></div> <span
-              class="textoBotaoPag2"> QUEM SOMOS?</span>
+              class="textoBotaoPag2" id="aboutUsButton_text"> QUEM SOMOS?</span>
           </div>
           <div class="botaoMenuP2">
             <div class="iconeMenuP2"><img src="icons/icon_supporter.svg" alt="" class="iconep2"></div><span
-              class="textoBotaoPag2"> APOIADORES</span>
+              class="textoBotaoPag2" id="partnersButton_text"> APOIADORES</span>
           </div>
           <div class="botaoMenuP2">
             <div class="iconeMenuP2"><img src="icons/icon_contact.svg" alt="" class="iconep2"></div><span
-              class="textoBotaoPag2"> CONTATO</span>
+              class="textoBotaoPag2" id="contactButton_text"> CONTATO</span>
           </div>
 
 
           <div class="botaoMenuP2" style="background-color: rgb(95, 202, 33); margin-top: 2vw;">
             <div class="iconeMenuP2" style="background-color: rgb(42, 151, 28)"><img src="icons/icone_partner.svg"
-                alt="" class="iconep2"></div><span class="textoBotaoPag2" style="color: white;"> SEJA UM
+                alt="" class="iconep2"></div><span class="textoBotaoPag2" style="color: white;" id="beAPartnerButton_text"> SEJA UM
               PARCEIRO!</span>
           </div>
 
@@ -97,10 +107,23 @@
           </div>
 
         </div>
-        <div class="caixaTextualPag2">Texto a ser setado via .JS
+        <div class="caixaTextualPag2">We are two brothers modelling 3D on Blender for Cities Skylines™. The RUSTY CRANE
+          project is the way we gathered forces to publish more and better assets for the game. Our intent is to create
+          free vehicles and props from all over the world, following your suggestions. If there are blueprints or pics
+          good enough, we'll model anything for you. Come with us!
 
-<br/>
-SITE EM CONSTRUÇÃO - WEBPAGE UNDER CONSTRUCTION
+          Become a supporter to gain access to our EXCLUSIVE COMMUNITY, being able to:
+          <ul>
+            <li> Suggest new models in first hand;</li>
+            <li> Have your personal, fictional or favorite brand logos stamped in assets;</li>
+            <li> Talk about the game and follow our creation process in our Discord server;</li>
+            <li> Participate in promotions;</li>
+            <li> Receive help in Blender basics through DISCORD if you want to join the C:S modders team!</li>
+          </ul>
+          Join us!
+          <br />
+          <br />
+          SITE EM CONSTRUÇÃO - WEBPAGE UNDER CONSTRUCTION
 
 
         </div>
@@ -108,9 +131,43 @@ SITE EM CONSTRUÇÃO - WEBPAGE UNDER CONSTRUCTION
 
     </div>
     <div id="element-3" class="element element-3">
-      Site em construção<br>
-      Under Construction
 
+
+      <div class="caixaElementoModelo">
+        <div class="postHeader">
+          <div class="assetName" id="assetName">Volkswagen Delivery 8-150</div>
+
+          <div class="steamBox">
+            <div class="seeSteamBox">Ver na Steam</div>
+            <img class="SteamIcon" src="icons/logo_steam.svg" alt="">
+          </div>
+
+          <div class="caixaStatsModel" style="margin-left: 2vw;">
+            <div class="img_model_spec"><img src="icons/3d_icon_verts.svg" alt=""></div>
+            Verts: 1.750
+          </div>
+          <div class="caixaStatsModel">
+              <div class="img_model_spec"><img src="icons/3d_icon_tris.svg" alt=""></div>
+              Tris: 2.900
+            </div>
+            <div class="caixaStatsModel">
+                <div class="img_model_spec"><img src="icons/3d_icon_texture.svg" alt=""></div>
+                Textura: 512x512
+              </div>
+
+
+        </div>
+        <div class="sketchfab-embed-wrapper"><iframe style="width: 25vw; height: 18vw;"
+            src="https://sketchfab.com/models/c63402acef0841dd855246f0be3f8dd6/embed" frameborder="0"
+            allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+          <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+            <a href="https://sketchfab.com/3d-models/vwdeliverysupergaslowpoly-c63402acef0841dd855246f0be3f8dd6?utm_medium=embed&utm_source=website&utm_campaign=share-popup"
+              target="_blank" style="font-weight: bold; color: #1CAAD9;"></a>
+
+          </p>
+        </div>
+      </div>
     </div>
     <div id="element-4" class="element element-4">
       Site em construção<br>
@@ -123,6 +180,8 @@ SITE EM CONSTRUÇÃO - WEBPAGE UNDER CONSTRUCTION
 
     </div>
   </div>
+
+<script src="lacation.js"></script>
 
 </body>
 

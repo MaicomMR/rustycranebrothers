@@ -7,14 +7,48 @@
 
 body{
     margin : 0;
-    font-family: 'Buran';
+    font-family: 'Raleway', sans-serif;
     font-size: 1.2em;
     background-color: rgb(223, 215, 158);
+}
+.caixaVideo {
+  width: 14vw;
+  height: 5.5vw;
+  background-color: rgba(95, 95, 95, 0.432);
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8vw;
+  padding: 0.3vw;
+  color: #000;
+  position: absolute;
+  right: 0;
+  padding-right: 3vw;
+  padding-top: 1vw;
+  opacity: 0.6;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
 }
 
 .header {
     float: left;
-
+    font-family: 'Buran';
     margin-left: -2vw;
     margin-top: 2em;
     font-size: 2vw;
@@ -86,7 +120,7 @@ body{
   }
 
 .pag2{
-  font-family: 'Raleway', sans-serif;
+  
 }
 .menuPag2 {
   float: left;
@@ -150,12 +184,17 @@ body{
 }
 
 .caixaTextualPag2 {
+  padding: 2vw;
  float: left;
  margin-left: 2vw;
  width: 60vw;
  height: 100vh;
  background-color: rgba(250, 250, 250, 0.384);
 }
+ul {
+  text-align: left;
+}
+
 
 
 
@@ -196,9 +235,17 @@ body{
 
 
 
-
-
-
+.underConstruction {
+  background-color: red;
+  position: absolute;
+  z-index: 10;
+  padding: 2vw;
+  width: 50vw;
+  text-align: center;
+  margin: 25vw;
+  font-weight: bold;
+  opacity: 0.8;
+}
 
 
 
@@ -234,10 +281,81 @@ body{
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   margin-left: 3.0vw;
-  margin-top: -0.5vw;
+  margin-top: -0.8vw;
 }
 
 .mouseScroll{
   margin-top: 0.5vw;
   width: 4vw;
+}
+
+.caixaElementoModelo{
+   margin:auto;
+  width: 60vw;
+  height: 40vw;
+  background-color: #2A2925;
+}
+
+.assetName {
+  font-weight: bold;
+  padding: 1vw;
+  padding-top: 1.2vw;
+  float: left;
+  margin-top: 2vw;
+  margin-left: 2vw;
+  background-color: #FCC400;
+  width: 60%;
+  height: 5vw;
+  font-size: 2vw;
+  color: #2A2925;
+}
+.steamBox{
+  margin-top: 2vw;
+  margin-left: 2vw;
+  height: 5vw;
+  float: left;
+  width: 25%;
+  border-radius: 0vw 3.5vw 3.5vw 0vw;
+  background-color: rgb(151, 148, 136);
+  transition: 1s;
+}
+
+
+.seeSteamBox{
+float: left;
+margin-top: 1.5vw;
+margin-left: 2vw;
+
+
+}
+
+.SteamIcon {
+  float: right;
+  width: 5vw;
+}
+
+.postHeader {
+  /* background-color: #EBAD29; */
+  height: 10vw;
+  width: 100%;
+}
+
+.caixaStatsModel{
+  float: left;
+  margin-top: 0.4vw;
+  margin-left: 0.3vw;
+  float: left;
+  background-color: #EBAD29;
+  height: 1.75vw;
+  width: auto;
+  padding-right: 1vw;
+  margin-right: 1vw;
+}
+
+.img_model_spec {
+  height: 1.75vw;
+  width: 1.75vw;
+  background-color: white;
+  float: left;
+  margin-right: 0.8vw;
 }
