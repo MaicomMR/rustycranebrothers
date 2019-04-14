@@ -3,6 +3,8 @@
     src: url('fonts/BuranUSSR.ttf'); /* IE9 Compat Modes */
   }
 
+
+
 body{
     margin : 0;
     font-family: 'Buran';
@@ -82,74 +84,123 @@ float: left;
     width: 0;
     height: 0;
   }
-
-.pag2_aba {
+.pag2{
+  font-family: 'Raleway', sans-serif;
+}
+.menuPag2 {
   float: left;
-  padding: 1vw;
-  text-align: justify;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 0.8em;
+  font-size: 1.6vw;
+  margin-left: 2vw;
+  padding-top: 2vw;  
   width: 30vw;
-  height: 97.2vh;
-  margin: 1.4vw;
-  background-color: rgb(17, 15, 12);
-  color: white;
-  z-index: -1;
-  transition: 2s;
-  border-bottom: 0vw solid rgb(0, 0, 14);
-}
-.pag2_aba:hover{
-  background-color: rgb(10, 10, 10);
-  transition: 1.2s;
-  border-bottom: 0.5vw solid rgb(90, 90, 90);
-}
-
-
-.caixaQuemSomos {
-  width: 110%;
-  float: left;
-  margin-left: -2vw; 
-
-
-
-}
-.quemsomos{
-  float: left;
-  overflow: visible;
-
-  font-size: 1.2em;
-  height: 3vw;
-
-  padding-left: 2vw;
-  padding-right: 1vw;
-  padding-top: 0.5vw;
-  padding-bottom: 0.5vw;
-
-  background-color: rgb(48, 44, 37);
-  font-weight: 700;
-  z-index: 10;
-
-  margin-left: -0.9vw;
-
+  height: 100vh;
+  background-color: antiquewhite;
   
 }
 
-.sombraQuemSomos {
+.iconeMenuP2{
   float: left;
-
-  height: 0;
-  width: 0;
-
-  border-right:1vw solid black;
-  border: top 1vw solid black;
-  border-left:1vw solid transparent;
-  border-bottom:1vw solid transparent;
-
-
-  margin-left: -0.9vw;
-  margin-top: 3vw;
-
+  height: 6vw;
+  width: 6vw;
+  background-color: rgb(226, 177, 0);
+  transition: 0.3s;
 }
+
+
+.textoBotaoPag2 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding-top: 2vw;
+  margin: auto;
+}
+.iconep2{
+  width: 3.5vw;
+  margin-top: 1.25vw;
+  
+}
+.botaoMenuP2 {
+  margin: auto;
+  color: #2A2925;
+  font-weight: bold;
+  background-color: #FCC400;
+  width: 25vw;
+  height: 6vw;
+  transition: 0.3s;
+}
+
+.botaoMenuP2:hover .iconeMenuP2 {
+  background-color: #C48727;
+  transition: 0.3s;
+  animation: swing 1s ease;
+}
+.botaoMenuP2:hover {
+  background-color: #EBAD29;
+  transition: 0.3s;
+}
+.caixaPartner {
+  margin: auto;
+  width: 25vw;
+  height: 17vw;
+  background-color: #9B8B80;
+  padding: 0.4vw;
+  font-size: 1.1vw;
+  text-align: justify;
+}
+
+.caixaTextualPag2 {
+ float: left;
+ margin-left: 2vw;
+ width: 60vw;
+ height: 100vh;
+ background-color: #9B8B80;
+}
+
+
+
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 .mouseDownAnim {
   margin: auto;
