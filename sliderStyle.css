@@ -15,10 +15,10 @@
   .slider:before {
     position: absolute;
     content: "";
-    height: 16px;
-    width: 16px;
-    left: 10px;
-    bottom: 4px;
+    height: 1vw;
+    width: 1vw;
+    left: .3vw;
+    bottom: 0.25vw;
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;

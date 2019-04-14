@@ -58,7 +58,7 @@ body{
 
 .languageBox{
     float: right;
-    height: 2em;
+    height: 2vw;
     padding: 0.85em 4em 0.5em 2em;
     line-height: 1.3em;
 }
@@ -72,11 +72,11 @@ body{
 } */
 
 .switch {
-float: left;
+    float: left;
     position: relative;
     display: inline-block;
-    width: 60px;
-    height: 24px;
+    width: 3.4vw;
+    height: 1.5vw;
   }
   
   .switch input { 
@@ -84,6 +84,7 @@ float: left;
     width: 0;
     height: 0;
   }
+
 .pag2{
   font-family: 'Raleway', sans-serif;
 }
@@ -143,7 +144,7 @@ float: left;
   width: 25vw;
   height: 17vw;
   background-color: #9B8B80;
-  padding: 0.4vw;
+  padding: 1.5vw;
   font-size: 1.1vw;
   text-align: justify;
 }
@@ -153,7 +154,7 @@ float: left;
  margin-left: 2vw;
  width: 60vw;
  height: 100vh;
- background-color: #9B8B80;
+ background-color: rgba(250, 250, 250, 0.384);
 }
 
 
