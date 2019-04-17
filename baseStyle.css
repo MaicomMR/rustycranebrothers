@@ -289,49 +289,54 @@ ul {
   width: 4vw;
 }
 
-.caixaElementoModelo{
-   margin:auto;
+
+.element3Body{
+  margin: auto;
   width: 60vw;
-  height: 40vw;
-  background-color: #2A2925;
+  height: 100vh;
+  /* background-color: #C48727; */
 }
-
-.assetName {
-  font-weight: bold;
-  padding: 1vw;
-  padding-top: 1.2vw;
+.element3ArrowBox {
   float: left;
-  margin-top: 2vw;
-  margin-left: 2vw;
-  background-color: #FCC400;
-  width: 60%;
-  height: 5vw;
-  font-size: 2vw;
-  color: #2A2925;
-}
-.steamBox{
-  margin-top: 2vw;
-  margin-left: 2vw;
-  height: 5vw;
-  float: left;
-  width: 25%;
-  border-radius: 0vw 3.5vw 3.5vw 0vw;
-  background-color: rgb(151, 148, 136);
-  transition: 1s;
-}
-
-
-.seeSteamBox{
-float: left;
-margin-top: 1.5vw;
-margin-left: 2vw;
-
-
-}
-
-.SteamIcon {
-  float: right;
   width: 5vw;
+  height: 100vh;
+  background-color: rgba(54, 54, 54, 0.472);
+}
+.e3aLeft {
+  float: left;
+}
+.e3aRight {
+  float: right;
+}
+
+.elementCentralBox{
+  background-color: #2A2925;
+  width: 50vw;
+  height: 100vh;
+  float: left;
+}
+.assetName {
+  float: left;
+  width: 90%;
+
+  float: left;
+  margin-top: 5%;
+  margin-left: 5%;
+
+  height: 5.52vw;
+  /* background-color: aqua; */
+  color: rgb(42, 37, 42);
+  margin-bottom: 1vw;
+}
+.assetBox {
+  padding: 1vw;
+  padding-top: 1.2vw; 
+  float: left;
+  font-weight: bold;
+  height: 100%;
+  width: 75%;
+  font-size: 2vw;
+  background-color: #FCC400;
 }
 
 .postHeader {
@@ -342,14 +347,13 @@ margin-left: 2vw;
 
 .caixaStatsModel{
   float: left;
-  margin-top: 0.4vw;
-  margin-left: 0.3vw;
-  float: left;
+  margin-top: 0.1vw;
+  margin-left: 0.5%;
   background-color: #EBAD29;
   height: 1.75vw;
-  width: auto;
-  padding-right: 1vw;
-  margin-right: 1vw;
+  width: 24.5%;
+  color: #2A2925;
+  font-size: 1vw;
 }
 
 .img_model_spec {
@@ -358,4 +362,20 @@ margin-left: 2vw;
   background-color: white;
   float: left;
   margin-right: 0.8vw;
+}
+
+.iframeSketch {
+  width: 90%;
+  height: 40vh;
+}
+
+.assetDesc{
+  text-align: justify;
+  padding: 3%;
+  font-size: 1vw;
+  width: 90%;
+  /* height: 30vh; */
+  background-color: rgba(250, 250, 250, 0.384);
+  margin-top: 1vh;
+  margin-left: 5%;
 }
